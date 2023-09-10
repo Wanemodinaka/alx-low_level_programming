@@ -1,11 +1,10 @@
 #include <stdio.h>
 /**
- * main - Prints numbers between 0 to 9 and letters between a of f.
- *
+ * main - Prints all the numbers of base 16 in lowercase, followed by a new line
  * Return: Always 0 (Success)
  */
 
-int maain(void)
+int main(void)
 {
 	int i;
 
@@ -19,5 +18,5 @@ int maain(void)
 		putchar(i);
 	}
 	putchar('\n')
-	return (0);
+	return (0)
 }
